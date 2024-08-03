@@ -10991,3 +10991,30 @@ header.masthead {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption, #portfolio .container-sm .portfolio-box:hover .portfolio-box-caption, #portfolio .container-md .portfolio-box:hover .portfolio-box-caption, #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption, #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+/* Custom Styles for Search Section */
+.container-fluid.my-5.py-5 {
+    background-color: #f8f9fa;
+}
+
+.navigations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.form-control.custom-search {
+    border-radius: 0;
+}
+
+.btn.btn-outline-success {
+    border-radius: 0;
+    margin-left: 10px;
+}
