@@ -33,25 +33,59 @@
             justify-content: center;
         }
 
-        .team-container {
-            padding: 50px 0;
+        .team-member {
+            margin-bottom: 30px;
+            padding: 20px;
             text-align: center;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: all 0.3s ease-in-out;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
-        .team-container h2 {
-            margin-bottom: 30px;
-            font-weight: bold;
+        .team-member:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
         }
 
         .team-member img {
+            width: 120px;
+            height: 120px;
             border-radius: 50%;
-            width: 100%;
-            height: 200px;
-            max-width: 150px;
+            object-fit: cover;
+            margin-bottom: 15px;
+            /* border: 1px solid rgba(0, 0, 0, 0.264); */
         }
 
-        .team-member {
-            margin-bottom: 80px;
+        .team-ivn img {
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            /* border: 1px solid rgba(0, 0, 0, 0.264); */
+        }
+
+        .team-member h5 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .team-member span {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 500;
+            margin-bottom: 5px;
+            display: block;
+            color: #fff;
+            font-weight: bold;
+            font-size: 0.7rem;
+            padding: 5px 10px;
+            background-color: #ff4785;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -74,7 +108,7 @@
                     <a class="nav-link" href="myindex.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="transient.html">Transient</a>
+                    <a class="nav-link" href="mytransient.html">Transient</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Pension.html">Pension</a>
@@ -93,81 +127,81 @@
     </nav>
 
     <!-- Main Content -->
-    <div class="container-fluid p-0 mt-5">
+    <div class="container pt-5 mt-5">
         <section class="team-container">
-            <h2>Meet Our Team</h2>
+            <h2 class="text-center py-3">Meet Our Team</h2>
             <div class="team-container d-flex align-item-center justify-content-center">
-                <div class="row w-75">
-                    <div class="col-md-4 team-member">
+                <div class="row w-100">
+                    <div class="col-md-4 team-member card">
+                        <img src="assets/img/member/taks.png" alt="Mark Christian Creador">
                         <span>PROJECT MANAGER</span>
                         <h5>CREADOR, MARK CHRISTIAN</h5>
-                        <img src="assets/img/member/taks.png" alt="Mark Christian Creador">
                     </div>
 
-                    <div class="col-md-4 team-member">
+                    <div class="col-md-4 team-member card">
+                        <img src="assets/img/member/ace.png" alt="Apple Ace Acepcion">
                         <span>DEVELOPER</span>
                         <h5>ACEPCION, APPLE ACE</h5>
-                        <img src="assets/img/member/ace.png" alt="Apple Ace Acepcion">
                     </div>
 
-                    <div class="col-md-4 team-member">
+                    <div class="col-md-4 team-member card">
+                        <img src="assets/img/member/belle.png" alt="Jobelle Cervantes">
                         <span>UI DESIGNER</span>
                         <h5>CERVANTES, JOBELLE</h5>
-                        <img src="assets/img/member/belle.png" alt="Jobelle Cervantes">
                     </div>
 
-                    <div class="col-md-4 team-member">
+                    <div class="col-md-4 team-member card">
+                        <img src="assets/img/member/erika.png" alt="Erika Aguilar">
                         <span>DEVELOPER</span>
                         <h5>AGUILAR, ERIKA</h5>
-                        <img src="assets/img/member/erika.png" alt="Erika Aguilar">
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 team-ivn card">
+                        <img src="assets/img/member/ivn.png" height="400" alt="Jan Ivn Conde">
                         <span>DEVELOPER</span>
                         <h5>CONDE, JAN IVN</h5>
-                        <img src="assets/img/member/ivn.png" height="400" alt="Jan Ivn Conde">
                     </div>
 
-                    <div class="col-md-4 team-member">
+                    <div class="col-md-4 team-member card">
+                        <img src="assets/img/member/kate.png" alt="Kate Andrea Katon">
                         <span>DEVELOPER</span>
                         <h5>KATON, KATE ANDREA</h5>
-                        <img src="assets/img/member/kate.png" alt="Kate Andrea Katon">
                     </div>
 
-                    <div class="col-md-4 team-member">
+                    <div class="col-md-4 team-member card">
+                        <img src="assets/img/member/joni.png" alt="Joni Caryl Diaz">
                         <span>DEVELOPER</span>
                         <h5>DIAZ, JONI CARYL</h5>
-                        <img src="assets/img/member/joni.png" alt="Joni Caryl Diaz">
                     </div>
 
-                    <div class="col-md-4 team-member">
+                    <div class="col-md-4 team-member card">
+                        <img src="assets/img/member/des.png" alt="Desierre Lofranco">
                         <span>DEVELOPER</span>
                         <h5>LOFRANCO, DESIERRE</h5>
-                        <img src="assets/img/member/des.png" alt="Desierre Lofranco">
                     </div>
 
-                    <div class="col-md-4 team-member">
+                    <div class="col-md-4 team-member card">
+                        <img src="assets/img/member/aubrey.jpg" alt="Aubrey Karylle Mamaril">
                         <span>DEVELOPER</span>
                         <h5>MAMARIL, AUBREY KARYLLE</h5>
-                        <img src="assets/img/member/aubrey.jpg" alt="Aubrey Karylle Mamaril">
                     </div>
 
-                    <div class="col-md-4 team-member">
+                    <div class="col-md-4 team-member card">
+                        <img src="assets/img/member/mart.png" alt="Mart Edrian Bernardo">
                         <span>DEVELOPER</span>
                         <h5>BERNARDO, MART EDRIAN</h5>
-                        <img src="assets/img/member/mart.png" alt="Mart Edrian Bernardo">
                     </div>
 
-                    <div class="col-md-4 team-member">
+                    <div class="col-md-4 team-member card">
+                        <img src="assets/img/member/beltran.png" alt="John Philip Beltran">
                         <span>DEVELOPER</span>
                         <h5>BELTRAN, JOHN PHILIP</h5>
-                        <img src="assets/img/member/beltran.png" alt="John Philip Beltran">
                     </div>
 
-                    <div class="col-md-4 team-member">
+                    <div class="col-md-4 team-member card">
+                        <img src="assets/img/member/sydney.png" alt="Sydney Contreras">
                         <span>DEVELOPER</span>
                         <h5>CONTRERAS, SYDNEY</h5>
-                        <img src="assets/img/member/sydney.png" alt="Sydney Contreras">
                     </div>
                 </div>
             </div>

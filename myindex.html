@@ -32,6 +32,19 @@
             align-items: center;
             justify-content: center;
         }
+
+        .icon {
+            font-size: 32px;
+        }
+
+        .taks-color {
+            color: #fff;
+            font-weight: bold;
+            font-size: 0.7rem;
+            padding: 10px 20px;
+            background-color: #ff4785;
+            border-radius: 5px;
+        }
     </style>
 </head>
 
@@ -53,7 +66,7 @@
                     <a class="nav-link active actives" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="transient.html">Transient</a>
+                    <a class="nav-link" href="mytransient.html">Transient</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="Pension.html">Pension</a>
@@ -74,14 +87,14 @@
     <!-- Main Content -->
     <div class="container-fluid p-0 mt-5">
         <section id="welcome1" class="full-height section1 text-white bg-light">
-            <div class="home-container w-75 d-flex align-items-center justify-content-around">
+            <div class="home-container w-75 d-flex align-items-center justify-content-between">
                 <div class="img-container">
                     <img src="assets/img/travel-agent.png" alt="">
                 </div>
                 <div class="text-container d-flex flex-column align-items-center" style="color: black;">
                     <h1 style="font-weight: bold;">Discover your best stay</h1>
                     <h4>At Puerto Princesa Traveloca</h4>
-                    <a href="#about"><button class="btn btn-success">Find out more</button></a>
+                    <a href="#about" class="pt-3"><button class="btn btn-success">Find out more</button></a>
                 </div>
             </div>
         </section>
@@ -89,9 +102,9 @@
 
         <section id="about" class="full-height section2 text-dark bg-white">
             <div class="container d-flex align-items-center justify-content-around">
-                <div class="container-fluid p-4">
+                <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-5 abouts mb-5">
+                        <div class="col-lg-6 abouts mb-5">
                             <h6 class="text-secondary">About Us:</h6>
                             <h1 class="sheenas-text pt-3" style="font-weight: bold;">Welcome to Puerto Princesa
                                 Traveloca!</h1>
@@ -101,13 +114,13 @@
                                 Whether you're a backpacker seeking an affordable stay or a family looking for a
                                 comfortable lodge, we’ve got you covered.</p>
                             <div class="reads d-flex justify-content-end">
-                                <a href="about.html" class="fw-bold text-info" style="text-decoration: underline;">Read
+                                <a href="#about" class="fw-bold text-info" style="text-decoration: underline;">Read
                                     More
                                     ...</a>
                             </div>
                         </div>
-                        <div class="col-lg-7">
-                            <div class="img-container d-flex align-items-center justify-content-around">
+                        <div class="col-lg-6">
+                            <div class="img-container d-flex align-items-center justify-content-end">
                                 <img src="assets/img/suitcase.png" width="450" alt="">
                             </div>
                         </div>
@@ -126,7 +139,7 @@
                             <div class="mb-2"><i class="bi-house icon text-success"></i></div>
                             <h3 class="h4 mb-2">Lodge</h3>
                             <p class="text-muted mb-0">We offer clean and <br> affordable rooms!</p>
-                            <a href="rooms.html" class="text-light text-decoration-none"><button
+                            <a href="Lodge.html" class="text-light text-decoration-none"><button
                                     class="btn btn-outline-success mt-3">Explore our Lodge</button></a>
                         </div>
                     </div>
@@ -135,7 +148,7 @@
                             <div class="mb-2"><i class="bi-egg-fried icon text-success"></i></div>
                             <h3 class="h4 mb-2">Pension</h3>
                             <p class="text-muted mb-0">Enjoy your stay with our <br> local pension houses</p>
-                            <a href="menu.html" class="text-light text-decoration-none"><button
+                            <a href="Pension.html" class="text-light text-decoration-none"><button
                                     class="btn btn-success mt-3">Explore our Pension</button></a>
                         </div>
                     </div>
@@ -144,8 +157,8 @@
                             <div class="mb-2"><i class="bi-check2-square icon text-success"></i></div>
                             <h3 class="h4 mb-2">Transient</h3>
                             <p class="text-muted mb-0">Explore the city with guides providing interesting insights</p>
-                            <a href="tour.html" class="text-light text-decoration-none"><button
-                                    class="btn btn-outline-success mt-3">Explore our Tour</button></a>
+                            <a href="mytransient.html" class="text-light text-decoration-none"><button
+                                    class="btn btn-outline-success mt-3">Explore our Transient</button></a>
                         </div>
                     </div>
                 </div>
@@ -217,8 +230,8 @@
                     </div>
                 </div>
             </div>
+        </section>
     </div>
-    </section>
     <footer class="bg-light py-3">
         <div class="container px-4 px-lg-5">
             <div class="small text-center text-muted">Copyright &copy; 2024 - Puerto Princesa Traveloca</div>
